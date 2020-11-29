@@ -3,18 +3,36 @@
 Web Projesi Kurulumu
 
 1-	Projeyi hazırlamak için Spring Tool Suit kullandım. https://spring.io/tools linkten indirmenizi tavsiye ederim. Projeyi import etiğinizde sağ tıklayarak “Start as Spring Project” seçmeniz sunucunun çalışır hale gelmesi için yeterli olacaktır. Projeyi STS kullanarak oluşturduğumdan içerisinde gömülü bir Tomcat bulunmaktadır. Bu nedenle fazladan sunucu için ayar yapmanıza gerek yoktur. 
+
+
 2-	Database olarak h2 database kullandım. Herhangi bir database kurulumu yapmanıza gerek yoktur. Database Server’a giriş yapmak için sunucuyu çalıştırdıktan sonra http://localhost:8080/h2-console adresine giderek password kısmına “password” yazarak giriş yapabilirsiniz.
+
+
 3-	Kullanılan end pointler:
+
+
 •	Sunucuyu çalıştırdıktan sonra http://localhost:8080/home adresine yönlenerek kredi başvuru formunu doldurabilirsiniz.
+
+
 •	http://localhost:8080/enterCreditScore adresine yönlenerek istediğiniz bir TC kimlik numarası ile istediğiniz bir kredi skoru değeri girebilirsiniz. Uygulama sunucusu kredi skoru bilgisini öğrenmek için TC kimlik bilgisini kullanrak rest isteği yolladığında kredi skor servisi sizin buraya girdiğiniz değere göre yanıt dönecektir.
+
+
 •	http://localhost:8080/api  TC kimlik numarası ile kredi skorunu öğrenebileceğiniz servistir. Postman ile hazırlanan API şablonunu klasörün içerisinde bulabilirsiniz.
+
+
 Uyarı : SMS gönderimi için kullanılan servis bakiyesi 13$’dır. Her SMS gönderimi yaklaşık 0.10$. Hesap bakiyesinde para kalmadığı durumunda testlerinize devam edebilmek için HomeController class’ından bu servisi etkisiz hale getirmelisiniz. 
 
 Test Projesi Kurulumu
 
 1-	Test projesini kurma için öncelikle Java projesini kullandığınız IDE’ye aktarınız.
+
+
 2-	Testler Selenium kütüphanesi kullanılarak hazırlanmıştır. Test-->lib klasörü altındaki jar dosyalarını build path’e tıkladıktan sonra add external jar seçeniğini seçerek ekleyiniz ve projeyi çalıştırınız.
+
+
 Not: Bilgisayarınızda Google Chrome yüklü olmalıdır.
+
+
 3-	Üretilen test senaryolarını aşağıda bulabilirsiniz.
 
 
