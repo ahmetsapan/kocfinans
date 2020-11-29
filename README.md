@@ -39,49 +39,107 @@ Not: Bilgisayarınızda Google Chrome yüklü olmalıdır.
 Test Case 1:
 
 A user is added to the system with credit score of 450 with National ID 1.
+
+
 An application form is filled with same National ID.
+
+
 Expected system response:
+
+
 Application Result: REJECTED
+
+
 Credit Limit: 0
+
 
 Test Case 2:
 
+
 A user is added to the system with credit score of 501 with National ID 2.
+
+
 An application form is filled with same National ID.
+
+
 Income is set as 4000 TL.
+
+
 Expected system response:
+
+
 Application Result: APPROVED
+
+
 Credit Limit: 10.000 TL
+
 
 Test Case 3:
 
 A user is added to the system with credit score of 700 with National ID 3.
+
+
 An application form is filled with same National ID.
+
+
 Income is set as 10.000.
+
+
 Expected behavior is not known. Since there is no rule defined for applicants with 500 < credit score < 1000 and income > 5000TL
-System Response
+
+
+System Response:
+
+
 Application Result: APPROVED
+
+
 Credit Limit: 10.000 TL
+
 
 Test Case 4:
 
 A user is added to the system with credit score of 1500 with National ID 4.
+
+
 An application form is filled with same National ID.
+
+
 Income is filled as 100000000000000.
+
+
 Expected system response
+
+
 Application Result: APPROVED
+
+
 Credit Limit: 4 * Income
+
 
 Test Case 5:
 
+
 Add 2 credit scores for the same applicant to Credit Service.
+
+
 Expected result:
+
+
 System should provide limit according to last entered credit score info. 
 
  
 Bonus Soru Cevabı: 
 1-	Kredi skoru 500 ile 1000 arasında olup geliri 5000TL’nin üzerindeki kişiler için kredi limiti belirtilmemiştir.
+
+
 2-	Kredi skoru 500 olan kişiler için kredi limiti ve onay durumu belirtilmemiştir.
+
+
+İletişim - Ahmet SAPAN
+
+
+05337123217
 
 
 
