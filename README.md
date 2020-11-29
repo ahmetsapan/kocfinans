@@ -27,7 +27,10 @@ Test Projesi Kurulumu
 1-	Test projesini kurma için öncelikle Java projesini kullandığınız IDE’ye aktarınız.
 
 
-2-	Testler Selenium kütüphanesi kullanılarak hazırlanmıştır. Test-->lib klasörü altındaki jar dosyalarını build path’e tıkladıktan sonra add external jar seçeniğini seçerek ekleyiniz ve projeyi çalıştırınız.
+2-	Testler Selenium kütüphanesi kullanılarak hazırlanmıştır. Test-->lib klasörü altındaki jar dosyalarını build path’e tıkladıktan sonra add external jar seçeniğini seçerek ekleyiniz 
+
+
+3- Daha sonra import ettiğiniz Java projesinin içine paylaşmış olduğum chromedriver.exe 'yi ekleyiniz ve projeyi çalıştırınız.
 
 
 Not: Bilgisayarınızda Google Chrome yüklü olmalıdır.
